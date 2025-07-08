@@ -1,0 +1,71 @@
+.home_page {
+  background-color: rgba(0, 150, 136, 1);
+  position: relative;
+}
+.home__total {
+  padding-top: 90px;
+  display: flex;
+  /* align-items: center; */
+}
+.home_aside p {
+  /* top: 100px; */
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 17px;
+  letter-spacing: 2%;
+  width: 421px;
+  font-weight: 500;
+  text-align: center;
+}
+.home_aside h1 {
+  padding-top: 40px;
+  font-size: 48px;
+  color: #fff;
+}
+.buttons {
+  padding-top: 40px;
+  display: flex;
+  align-items: center;
+}
+.buttons button {
+  border-radius: 10px;
+  padding: 15px 45px;
+  background-color: rgba(253, 102, 31, 1);
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.total_rates {
+  display: flex;
+  gap: 10px;
+}
+.rates {
+  color: #fff;
+}
+/* .images {
+  position: relative;
+}
+.images img {
+  position: absolute;
+
+} */
+.base_img {
+}
+.home_bside_top {
+  position: absolute;
+  top: 55px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 223px;
+  padding: 13px;
+  border-radius: 15px;
+  color: rgba(89, 89, 89, 1);
+}
+.bside_top_flex {
+  display: flex;
+  gap: 20px;
+}
+.bside_top_flex img {
+  width: 48px;
+  height: 48px;
+}
