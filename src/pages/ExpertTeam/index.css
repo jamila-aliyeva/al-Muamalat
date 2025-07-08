@@ -1,0 +1,42 @@
+.expert_team h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.expert_team p {
+  max-width: 544px;
+  padding-top: 20px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(104, 104, 104, 1);
+}
+.experts_card {
+  margin-top: 40px;
+  padding: 45px;
+  /* gap: 120px; */
+  background-color: rgba(210, 230, 228, 1);
+  display: flex;
+  align-items: center;
+}
+.experts__bside {
+  margin-left: 180px;
+}
+.experts__bside h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: rgba(20, 27, 52, 1);
+}
+.experts__bside p {
+  max-width: 514px;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: left;
+}
+.experts_social {
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+}
+.experts_social svg {
+  /* width: 100px; */
+}

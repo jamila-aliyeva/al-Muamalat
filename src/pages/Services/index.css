@@ -1,0 +1,53 @@
+.services_top {
+  padding-top: 110px;
+  text-align: center;
+}
+.services_top h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.services_top p {
+  padding-top: 20px;
+  max-width: 474px;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(104, 104, 104, 1);
+}
+.service__total {
+  --gap: 2rem;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--gap);
+  margin-inline: auto;
+  max-width: 1280px;
+  padding: var(--gap);
+}
+.service__card {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.04);
+  text-align: left;
+  padding: 30px;
+  border-radius: 6px;
+  background-color: rgba(222, 234, 255, 1);
+  color: rgba(21, 32, 50, 1);
+}
+.card_top {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.card_-top h3 {
+  font-size: 24px;
+  max-width: 215px;
+}
+.card_text {
+  margin-top: 20px;
+  max-width: 290px;
+}
+.service__btn {
+  margin-top: 15px;
+  padding: 9px 20px;
+  background-color: rgba(21, 32, 50, 1);
+}
