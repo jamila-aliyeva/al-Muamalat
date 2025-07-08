@@ -41,10 +41,17 @@ select {
   outline: none;
 }
 button {
+  border: none;
+  outline: none;
+}
+button a {
   padding: 10px 20px;
   border-radius: 8px;
   border: none;
   background-color: rgba(0, 150, 136, 1);
   color: #fff;
   cursor: pointer;
+}
+.flag--uzb {
+  width: 30px !important;
 }

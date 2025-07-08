@@ -35,8 +35,6 @@
 .experts_social {
   margin-top: 30px;
   display: flex;
+
   gap: 40px;
-}
-.experts_social svg {
-  /* width: 100px; */
 }

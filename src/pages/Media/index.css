@@ -1,0 +1,63 @@
+.media h2 {
+  margin-top: 90px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
+}
+.media_text {
+  text-align: center;
+  margin: 0 auto;
+  font-size: 17px;
+  max-width: 584px;
+}
+.media_top_total {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.media_top_total h3 {
+  margin-bottom: 0px;
+}
+
+.finance-card {
+  position: relative;
+  margin: 0 8px;
+  height: 514px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.finance-image {
+  max-width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.finance-content {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  right: 23px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.finance-text {
+  color: white;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 12px;
+}
+
+.play-button {
+  background-color: rgba(0, 150, 136, 1);
+  color: white;
+  border: none;
+}
+
+.play-button:hover {
+  background-color: rgba(0, 150, 136, 1);
+  color: white;
+}

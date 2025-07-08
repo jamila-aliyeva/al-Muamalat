@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./index.css";
 import Expert from "../../assets/images/expert.svg";
 import { LiaTelegram } from "react-icons/lia";
@@ -18,10 +19,12 @@ const ExpertTeam = () => {
         </p>
 
         <div className="experts_card">
-          <img src={Expert} alt="" />
+          <div>
+            <img src={Expert} alt="" />
+          </div>
           <div className="experts__bside">
-            <h3>Dr. Mezbah Uddin Ahmed</h3>
-            <p>
+            <h4>Dr. Mezbah Uddin Ahmed</h4>
+            <p className="experts_text">
               It is a long established fact that a reader will be distracted by
               the readable content of a page when looking at its layout. The
               point of using Lorem Ipsum is that it has a more-or-less normal

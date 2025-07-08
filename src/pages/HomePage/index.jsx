@@ -7,6 +7,8 @@ import Img from "../../assets/images/home-img.png";
 import Date from "../../assets/images/date.png";
 import Services from "../Services";
 import ExpertTeam from "../ExpertTeam";
+import Clients from "../clients";
+import Media from "../Media";
 
 const HomePage = () => {
   return (
@@ -35,13 +37,11 @@ const HomePage = () => {
               </div>
             </div>
             <div className="home_bside">
-              <div className="home_bside_top">
-                <div className="bside_top_flex">
-                  <img src={Date} alt="" />
-                  <div>
-                    <h3>250k</h3>
-                    <p>Assisted Student</p>
-                  </div>
+              <div className="bside_top_flex">
+                <img src={Date} alt="" />
+                <div>
+                  <h3>250k</h3>
+                  <p>Assisted Student</p>
                 </div>
               </div>
               <img className="base_img" src={Img} alt="" />
@@ -51,6 +51,8 @@ const HomePage = () => {
       </section>
       <Services />
       <ExpertTeam />
+      <Clients />
+      <Media />
     </>
   );
 };

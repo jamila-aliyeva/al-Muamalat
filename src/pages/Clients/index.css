@@ -1,0 +1,9 @@
+.clients h2 {
+  padding-top: 60px;
+  text-align: center;
+}
+.clients_total {
+  margin-top: 50px;
+  display: flex;
+  gap: 40px;
+}

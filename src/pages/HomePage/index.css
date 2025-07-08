@@ -5,10 +5,8 @@
 .home__total {
   padding-top: 90px;
   display: flex;
-  /* align-items: center; */
 }
 .home_aside p {
-  /* top: 100px; */
   background-color: #fff;
   border-radius: 10px;
   padding: 10px 15px;
@@ -43,16 +41,11 @@
 .rates {
   color: #fff;
 }
-/* .images {
-  position: relative;
-}
-.images img {
-  position: absolute;
 
-} */
-.base_img {
-}
-.home_bside_top {
+.bside_top_flex {
+  align-items: center;
+  display: flex;
+  gap: 20px;
   position: absolute;
   top: 55px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -60,10 +53,6 @@
   padding: 13px;
   border-radius: 15px;
   color: rgba(89, 89, 89, 1);
-}
-.bside_top_flex {
-  display: flex;
-  gap: 20px;
 }
 .bside_top_flex img {
   width: 48px;
