@@ -46,7 +46,7 @@ const Header = () => {
             </select>
           </div>
           <button>
-            <Link to="/signup">Sign up</Link>
+            <Link to="/sign">Sign up</Link>
           </button>
         </nav>
       </div>

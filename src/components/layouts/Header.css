@@ -25,6 +25,7 @@ nav {
   display: flex;
   align-items: center;
   gap: 24px;
+  margin-bottom: 0px;
 }
 li a {
   color: rgba(104, 104, 104, 1);

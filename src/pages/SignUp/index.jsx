@@ -1,11 +1,12 @@
 import React from "react";
 import "./index.css";
-import { NavLink } from "react-router-dom";
-import { FiChevronDown, FiMail, FiUser } from "react-icons/fi";
+import { FiMail } from "react-icons/fi";
+import { FaRegEyeSlash } from "react-icons/fa6";
 import logo from "../../assets/images/Logo.svg";
 import login from "../../assets/images/loginpage-img.svg";
+import { Link } from "react-router-dom";
 
-const LoginPage = () => {
+const SignUp = () => {
   return (
     <section>
       <div className="container">
@@ -24,30 +25,20 @@ const LoginPage = () => {
             </div>
             <div className="aside-bottom">
               <h1>Get started</h1>
-              <div className="aside-bottom-link">
-                <p>Already have an account?</p>
-                <b>
-                  <NavLink to="/signup">Sign in</NavLink>
-                </b>
-              </div>
               <form action="" className="aside-bottom-form">
-                <div className="input-box">
-                  <input type="text" placeholder="Enter your name" />
-                  <FiUser className="login-icons" />
-                </div>
                 <div className="input-box">
                   <input type="email" placeholder="Enter your email" />
                   <FiMail className="login-icons" />
                 </div>
-                <div className="select-box">
-                  <select name="" id="">
-                    <option value="Uzbekistan">Uzbekistan</option>
-                    <option value="Russia">Russia</option>
-                  </select>
-                  <FiChevronDown className="select-icon" />
+                <div className="input-box">
+                  <input type="password" placeholder="Password" />
+                  <FaRegEyeSlash className="login-icons" />
                 </div>
               </form>
-              <button className="login-btn">Log in</button>
+              <button className="sigin-btn">Sign in</button>
+              <div className="sigin-link">
+                <Link to="/login">Create a new account !</Link>
+              </div>
             </div>
           </div>
 
@@ -64,4 +55,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default SignUp;

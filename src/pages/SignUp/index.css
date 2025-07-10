@@ -1,0 +1,26 @@
+.sigin-btn {
+  width: 456px;
+  height: 47px;
+  border-radius: 10px;
+  background-color: rgba(0, 150, 136, 1);
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+.sigin-link {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sigin-link a {
+  color: rgba(0, 150, 136, 1);
+  font-size: 16px;
+  font-weight: 400;
+}
+.login-side-img {
+  background-color: rgba(0, 150, 136, 1);
+  margin: 10px 0px;
+  padding: 70px 50px;
+  border-radius: 12px;
+  text-align: center;
+}
