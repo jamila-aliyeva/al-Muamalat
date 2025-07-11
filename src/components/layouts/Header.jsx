@@ -5,7 +5,6 @@ import EngFlag from "../../assets/images/uk-flag.svg";
 import UzbFlag from "../../assets/images/uzb-flag.svg";
 import "./Header.css";
 import { Dropdown, Menu } from "antd";
-import { DownOutlined } from "@ant-design/icons";
 
 const Header = () => {
   const [lang, setlang] = useState("eng");
@@ -25,10 +24,22 @@ const Header = () => {
   };
   const menu = (
     <Menu onClick={handleMenuClick}>
-      <Menu.Item key="1">International educational programs</Menu.Item>
-      <Menu.Item key="2">Specialized courses</Menu.Item>
-      <Menu.Item key="3">Islamic Finance Literacy Course</Menu.Item>
-      <Menu.Item key="4">Certification program</Menu.Item>
+      <Menu.Item key="1">
+        <Link to="/programs">
+          International educational programs
+        </Link>
+      </Menu.Item>
+      <Menu.Item key="2">
+        <Link to="/programs/specialized">Specialized courses</Link>
+      </Menu.Item>
+      <Menu.Item key="3">
+        <Link to="/programs/islamic-finance">
+          Islamic Finance Literacy Course
+        </Link>
+      </Menu.Item>
+      <Menu.Item key="4">
+        <Link to="/programs/certification">Certification program</Link>
+      </Menu.Item>
     </Menu>
   );
 
