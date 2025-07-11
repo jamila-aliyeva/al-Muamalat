@@ -4,12 +4,33 @@ import Logo from "../../assets/images/Logo.svg";
 import EngFlag from "../../assets/images/uk-flag.svg";
 import UzbFlag from "../../assets/images/uzb-flag.svg";
 import "./Header.css";
+import { Dropdown, Menu } from "antd";
+import { DownOutlined } from "@ant-design/icons";
 
 const Header = () => {
   const [lang, setlang] = useState("eng");
+  const [visible, setVisible] = useState(false);
   const handeChange = (e) => setlang(e.target.value);
 
   const flagScr = lang === "eng" ? EngFlag : UzbFlag;
+
+  const handleMenuClick = (e) => {
+    if (e.key === "3") {
+      setVisible(false);
+    }
+  };
+
+  const handleVisibleChange = (flag) => {
+    setVisible(flag);
+  };
+  const menu = (
+    <Menu onClick={handleMenuClick}>
+      <Menu.Item key="1">International educational programs</Menu.Item>
+      <Menu.Item key="2">Specialized courses</Menu.Item>
+      <Menu.Item key="3">Islamic Finance Literacy Course</Menu.Item>
+      <Menu.Item key="4">Certification program</Menu.Item>
+    </Menu>
+  );
 
   return (
     <header>
@@ -24,7 +45,19 @@ const Header = () => {
                 <NavLink to="/">Home</NavLink>
               </li>
               <li>
-                <NavLink to="/programs">Programs</NavLink>
+                <Dropdown
+                  overlay={menu}
+                  onVisibleChange={handleVisibleChange}
+                  visible={visible}
+                >
+                  <NavLink
+                    className="ant-dropdown-link"
+                    onClick={(e) => e.preventDefault()}
+                    to="/programs"
+                  >
+                    Programs
+                  </NavLink>
+                </Dropdown>
               </li>
               <li>
                 <NavLink to="/finance">Finance tools</NavLink>

@@ -16,12 +16,12 @@ const SignUp = () => {
               <div>
                 <img src={logo} alt="" />
               </div>
-              <div>
+              {/* <div>
                 <p>Questions?</p>
                 <b>
                   <h3>Ask Diyor</h3>
                 </b>
-              </div>
+              </div> */}
             </div>
             <div className="aside-bottom">
               <h1>Get started</h1>

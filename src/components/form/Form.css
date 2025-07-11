@@ -1,0 +1,67 @@
+.form-content-total {
+  display: flex;
+  margin-top: 100px;
+  justify-self: center;
+  max-width: 100%;
+}
+
+.form-content-left {
+  padding: 50px;
+  background-color: rgba(250, 233, 211, 1);
+}
+.form-content-left h3 {
+  color: rgba(210, 133, 39, 1);
+  font-size: 25px;
+  font-weight: 700;
+}
+.form-content-left p {
+  font-size: 16px;
+  max-width: 440px;
+  color: rgba(210, 133, 39, 1);
+  font-weight: 500;
+}
+.form-content-right {
+  padding: 50px;
+  background-color: rgba(249, 247, 243, 1);
+}
+.form-content-right h3 {
+  color: rgba(21, 32, 50, 1);
+  font-size: 28px;
+  font-weight: 700;
+}
+.form-content-right p {
+  font-size: 16px;
+  color: rgba(21, 32, 50, 1);
+  font-weight: 500;
+  max-width: 371px;
+  margin-bottom: 40px;
+}
+.ant-input {
+  padding: 12px;
+  box-shadow: none !important;
+  border-color: #d9d9d9 !important;
+}
+.login-form-button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 19px;
+  font-size: 17px;
+  background-color: rgba(0, 150, 136, 1);
+  color: #ffff;
+}
+.login-form-button:hover {
+  background-color: rgba(0, 150, 136, 1) !important;
+  color: #fff !important;
+  box-shadow: none !important;
+  border-color: #fff !important;
+}
+.ant-checkbox-inner {
+  border-color: rgba(0, 150, 136, 1) !important;
+}
+.ant-checkbox {
+  color: rgba(0, 150, 136, 1) !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: rgba(0, 150, 136, 1) !important;
+  border-color: rgba(0, 150, 136, 1) !important;
+}

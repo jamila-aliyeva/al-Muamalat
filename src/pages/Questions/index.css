@@ -1,0 +1,27 @@
+.questions-header {
+  margin: 50px;
+  text-align: center;
+}
+.questions-header h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.questions-header p {
+  font-size: 18px;
+  font-weight: 500;
+}
+.questions-content {
+  display: flex;
+  justify-content: space-between;
+}
+.ant-collapse-item {
+  width: 570px !important;
+}
+.ant-collapse-header {
+  padding: 27px !important;
+}
+.ant-collapse-header-text {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+}

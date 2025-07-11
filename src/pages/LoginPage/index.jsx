@@ -15,19 +15,19 @@ const LoginPage = () => {
               <div>
                 <img src={logo} alt="" />
               </div>
-              <div>
+              {/* <div>
                 <p>Questions?</p>
                 <b>
                   <h3>Ask Diyor</h3>
                 </b>
-              </div>
+              </div> */}
             </div>
             <div className="aside-bottom">
               <h1>Get started</h1>
               <div className="aside-bottom-link">
                 <p>Already have an account?</p>
                 <b>
-                  <NavLink to="/signup">Sign in</NavLink>
+                  <NavLink to="/sign">Sign in</NavLink>
                 </b>
               </div>
               <form action="" className="aside-bottom-form">

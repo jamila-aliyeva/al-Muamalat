@@ -1,12 +1,12 @@
-.home_page {
+.hero_page {
   background-color: rgba(0, 150, 136, 1);
   position: relative;
 }
-.home__total {
+.hero__total {
   padding-top: 90px;
   display: flex;
 }
-.home_aside p {
+.hero_aside p {
   background-color: #fff;
   border-radius: 10px;
   padding: 10px 15px;
@@ -16,17 +16,18 @@
   font-weight: 500;
   text-align: center;
 }
-.home_aside h1 {
+.hero_aside h1 {
   padding-top: 40px;
   font-size: 48px;
   color: #fff;
 }
 .buttons {
+  position: relative;
   padding-top: 40px;
   display: flex;
   align-items: center;
 }
-.home_btn {
+.hero_btn {
   border-radius: 10px;
   padding: 15px 45px;
   background-color: rgba(253, 102, 31, 1);
@@ -35,7 +36,13 @@
   font-weight: 500;
 }
 .total_rates {
+  position: absolute;
+  top: 40px;
+  left: 215px;
+}
+.total_rates {
   display: flex;
+  align-items: center;
   gap: 10px;
 }
 .rates {
@@ -47,12 +54,16 @@
   display: flex;
   gap: 20px;
   position: absolute;
-  top: 55px;
+  top: 60px;
   background-color: rgba(255, 255, 255, 0.8);
   width: 223px;
-  padding: 13px;
+  padding: 15px;
   border-radius: 15px;
   color: rgba(89, 89, 89, 1);
+}
+.bside_top_flex_text h3,
+p {
+  margin-bottom: 0;
 }
 .bside_top_flex img {
   width: 48px;
